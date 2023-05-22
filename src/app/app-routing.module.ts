@@ -6,6 +6,11 @@ import { SaleComponent } from './pages/sale/sale.component';
 
 const routes: Routes = [
   {
+    path: "**",
+  
+    component: HomeComponent,
+  },
+  {
     path: 'products',
     component: HomeComponent,
   },
